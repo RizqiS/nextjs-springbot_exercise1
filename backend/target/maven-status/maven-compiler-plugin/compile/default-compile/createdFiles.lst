@@ -1,0 +1,10 @@
+META-INF/spring-configuration-metadata.json
+com/subrutin/catalog/service/impl/UserServiceImpl.class
+com/subrutin/catalog/service/UserService.class
+com/subrutin/catalog/config/UserProperties.class
+com/subrutin/catalog/web/HelloResources.class
+com/subrutin/catalog/service/impl/GreetingServiceImpl.class
+com/subrutin/catalog/config/ApplicationProperties.class
+com/subrutin/catalog/service/GreetingService.class
+com/subrutin/catalog/config/CloudProperties.class
+com/subrutin/catalog/BookCatalogV2Application.class

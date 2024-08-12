@@ -1,0 +1,48 @@
+# Default configuration
+logging:
+  level:
+    "[com.subrutin.catalog]": TRACE
+
+app:
+  currency: IDR
+  timezone: Asia/Jakarta
+  welcome-text: hello rizqi nurul sentosa, say hello
+cloud:
+  api-key-cloud: ${apiKeyCloud}
+user:
+  user-id: qwerty089AQW12
+server:
+  port: 8090
+
+---
+# Development profile
+spring:
+  config:
+    activate:
+      on-profile: development
+app:
+  welcome-text: hello rizqi nurul sentosa, say hello from development server
+server:
+  port: 8080
+
+---
+# Unit Test profile
+spring:
+  config:
+    activate:
+      on-profile: test
+app:
+  welcome-text: hello rizqi nurul sentosa, say hello from unit test server
+server:
+  port: 8083
+
+---
+# Production profile
+spring:
+  config:
+    activate:
+      on-profile: production
+app:
+  welcome-text: hello rizqi nurul sentosa, say hello from production server
+server:
+  port: 8085

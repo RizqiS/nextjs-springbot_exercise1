@@ -1,0 +1,12 @@
+{
+   "java.compile.nullAnalysis.mode": "automatic",
+   "java.configuration.updateBuildConfiguration": "automatic",
+   "editor.defaultFormatter": "redhat.java",   
+   "java.maven.downloadSources": true,
+   "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   }
+}

@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.subrutin.catalog.config.ApplicationProperties",
+      "sourceType": "com.subrutin.catalog.config.ApplicationProperties"
+    },
+    {
+      "name": "cloud",
+      "type": "com.subrutin.catalog.config.CloudProperties",
+      "sourceType": "com.subrutin.catalog.config.CloudProperties"
+    },
+    {
+      "name": "user",
+      "type": "com.subrutin.catalog.config.UserProperties",
+      "sourceType": "com.subrutin.catalog.config.UserProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.currency",
+      "type": "java.lang.String",
+      "sourceType": "com.subrutin.catalog.config.ApplicationProperties"
+    },
+    {
+      "name": "app.timezone",
+      "type": "java.lang.String",
+      "sourceType": "com.subrutin.catalog.config.ApplicationProperties"
+    },
+    {
+      "name": "app.welcome-text",
+      "type": "java.lang.String",
+      "sourceType": "com.subrutin.catalog.config.ApplicationProperties"
+    },
+    {
+      "name": "cloud.api-key-cloud",
+      "type": "java.lang.String",
+      "sourceType": "com.subrutin.catalog.config.CloudProperties"
+    },
+    {
+      "name": "user.user-id",
+      "type": "java.lang.String",
+      "sourceType": "com.subrutin.catalog.config.UserProperties"
+    }
+  ],
+  "hints": []
+}
